@@ -18,7 +18,7 @@ const AboutPage = () => {
             <Layout>
                 <SEO title="Alexis || About" />
                 <div className="wrapper about-page-wrapper">
-                    <Header classOption="hb-border" />
+                    {/* <Header classOption="hb-border" /> */}
                     <div className="main-content">
                         <PageTitleContainer />
                         <AboutService />

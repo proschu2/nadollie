@@ -832,7 +832,7 @@ iframe {
 
 .blockquote-area {
     p {
-        color: $black;
+        color: $black-999;
         font-family: $font-current-theme2;
         font-size: 30px;
         letter-spacing: -0.15px;
@@ -860,7 +860,7 @@ iframe {
     }
     .author-info {
         .name {
-            color: $black;
+            color: $white;
             display: block;
             font-size: 18px;
             font-weight: $font-weight-bold;
@@ -901,7 +901,7 @@ iframe {
             padding-left: 20px;
         }
         &:after {
-            background-color: $black;
+            background-color: $white;
             content: "";
             height: calc(100% - 16px);
             left: 0;

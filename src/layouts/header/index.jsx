@@ -53,9 +53,10 @@ const Header = ({ classOption }) => {
 
                         <div className="col-auto">
                             <div className="header-logo-area">
-                                <Logo
+                                NADINA
+                                {/* <Logo
                                     image={`${process.env.PUBLIC_URL}/img/logo.png`}
-                                />
+                                /> */}
                             </div>
                         </div>
 

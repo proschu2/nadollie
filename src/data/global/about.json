@@ -1,8 +1,8 @@
 [
     {
         "id": "about me",
-        "title": "Say Hello From Alexis !",
-        "excerpt": "We are a fairly small, flexible design studio that designs for print and web. <br>Alexis works flexibly with clients to fulfil their design needs. Whether you need to create a brand from scratch, including marketing and a beautiful and functional website or whether you are looking for a great experience."
+        "title": "Say Hello From Nadina !",
+        "excerpt": "Bla bla bla here"
     },
     {
         "id": "about service",
@@ -22,8 +22,8 @@
             {
                 "id": 1,
                 "classOption": "team-member",
-                "image": "./img/team/01.jpg",
-                "name": "Joe Biden",
+                "image": "https://imgr.search.brave.com/lP-QHd2mmjrj3wxO8Znn3HfOyxbc3zv6uSPF8L6rcec/fit/1080/640/ce/1/aHR0cHM6Ly93d3cu/c3JnZC5jaC9tZWRp/YS9fX3Byb2Nlc3Nl/ZF9fL2Q2ZC9OYWRp/bmEtRG9sbGllX0p1/Z2VuZGZpbG10YWdl/X1NSR1NTUmpwZy02/YWRmNmVmMjdjMmMu/anBn",
+                "name": "Nadina Dollie",
                 "designation": "CEO Founder"
             },
             {
@@ -37,34 +37,6 @@
                 "id": 3,
                 "classOption": "team-member",
                 "image": "./img/team/03.jpg",
-                "name": "Blanche Fields",
-                "designation": "CEO Founder"
-            },
-            {
-                "id": 4,
-                "classOption": "team-member",
-                "image": "./img/team/04.jpg",
-                "name": "Alex Tuntuni",
-                "designation": "CEO Founder"
-            },
-            {
-                "id": 5,
-                "classOption": "team-member",
-                "image": "./img/team/05.jpg",
-                "name": "Blanche Fields",
-                "designation": "CEO Founder"
-            },
-            {
-                "id": 6,
-                "classOption": "team-member",
-                "image": "./img/team/06.jpg",
-                "name": "Alex Tuntuni",
-                "designation": "CEO Founder"
-            },
-            {
-                "id": 7,
-                "classOption": "team-member",
-                "image": "./img/team/07.jpg",
                 "name": "Blanche Fields",
                 "designation": "CEO Founder"
             },

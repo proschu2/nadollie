@@ -41,12 +41,12 @@ const App = () => {
             <NavScrollTop>
                 <Switch>
                     <Route
-                        path={`${process.env.PUBLIC_URL + "/"}`}
+                        path={`${process.env.PUBLIC_URL + "/home"}`}
                         exact
                         component={HomePage}
                     />
                     <Route
-                        path={`${process.env.PUBLIC_URL + "/about"}`}
+                        path={`${process.env.PUBLIC_URL + "/"}`}
                         component={AboutPage}
                     />
                     <Route

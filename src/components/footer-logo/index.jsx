@@ -1,6 +1,7 @@
 import PropTypes from "prop-types";
 import { Link } from "react-router-dom";
 const FooterLogo = ({ image }) => {
+    return null;
     return (
         <Link to={process.env.PUBLIC_URL + "/"}>
             <img
