@@ -1,7 +1,7 @@
 [
     {
         "id": "about me",
-        "title": "nadina dollie",
+        "title": "film and media work",
         "excerpt": "my name ist nadina dollie. I studied architecture at ETH zurich<br/>me and my team work on different visual projects</br>our newest short film <i>Verzasca in Red</i> is currently touring Europe"
     },
     {
@@ -24,21 +24,25 @@
                 "classOption": "team-member",
                 "image": "./img/team/nadina.jpg",
                 "name": "nadina dollie",
-                "designation": "director and founder"
+                "designation": "director and founder",
+                "instagram": "pashmina__",
+                "film": "https://www.srgssr.ch/de/news-medien/news/ich-hatte-keine-ahnung-wie-man-einen-film-macht-und-das-war-gut-so"
             },
             {
                 "id": 2,
                 "classOption": "team-member",
                 "image": "./img/team/leander.jpg",
                 "name": "leander goetsch",
-                "designation": "managing"
+                "designation": "managing",
+                "instagram": "leanderkronos"
             },
             {
                 "id": 3,
                 "classOption": "team-member",
                 "image": "./img/team/alvaro.jpg",
                 "name": "alvaro kreyden",
-                "designation": "director of photography"
+                "designation": "director of photography",
+                "instagram": "taxidriverr"
             }
         ]
     },

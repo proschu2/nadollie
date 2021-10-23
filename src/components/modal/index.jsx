@@ -6,6 +6,7 @@ import DialogActions from "@mui/material/DialogActions";
 import DialogContent from "@mui/material/DialogContent";
 import DialogContentText from "@mui/material/DialogContentText";
 import DialogTitle from "@mui/material/DialogTitle";
+import Modal from "@mui/material/Modal";
 import Fade from "@mui/material/Fade";
 import NiceModal, { useModal } from "@ebay/nice-modal-react";
 
@@ -13,21 +14,34 @@ const Transition = React.forwardRef(function Transition(props, ref) {
     return <Fade direction="up" ref={ref} {...props} />;
 });
 
-const Modal = NiceModal.create(({ data }) => {
+const TeamModal = NiceModal.create(({ name, designation }) => {
     const modal = useModal();
     return (
-        <Dialog
-            TransitionComponent={Transition}
+        <Modal
             open={modal.visible}
             onClose={() => modal.hide()}
             TransitionProps={{
                 onExited: () => modal.remove(),
             }}
         >
-            <DialogTitle id="modalTitle">{data.name}</DialogTitle>
+            <div>
+                <div id="modalTitle">{name}</div>
+                <div>
+                    <div id="modalText">{designation}</div>
+                </div>
+            </div>
+            {/* <Dialog
+            TransitionCompon    ent={Transition}
+            open={modal.visible}
+            onClose={() => modal.hide()}
+            TransitionProps={{
+                onExited: () => modal.remove(),
+            }}
+        >
+            <DialogTitle id="modalTitle">{name}</DialogTitle>
             <DialogContent>
                 <DialogContentText id="modalText">
-                    {data.designation}
+                    {designation}
                 </DialogContentText>
             </DialogContent>
             <DialogActions>
@@ -38,15 +52,16 @@ const Modal = NiceModal.create(({ data }) => {
                     Agree
                 </Button>
             </DialogActions>
-        </Dialog>
+        </Dialog> */}
+        </Modal>
     );
 });
 
-Modal.propTypes = {
+TeamModal.propTypes = {
     data: PropTypes.object,
 };
-const showModal = ({ data }) => {
-    NiceModal.show(Modal, data);
+const showModal = (data) => {
+    NiceModal.show(TeamModal, { ...data });
 };
 
 showModal.propTypes = {

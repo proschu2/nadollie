@@ -1,10 +1,9 @@
 import PropTypes from "prop-types";
 
-const PageTitle = ({ subTitle, title, classOption }) => {
+const PageTitle = ({ title, classOption }) => {
     return (
         <div className={`page-title-content ${classOption}`}>
-            <h4 className="page-title">{subTitle}</h4>
-            <h2 className="title">{title}</h2>
+            <h1 className="title">{title}</h1>
         </div>
     );
 };

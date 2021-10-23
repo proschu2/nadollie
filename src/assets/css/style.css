@@ -5395,7 +5395,6 @@ iframe {
     font-size: 36px;
     font-weight: 700;
     letter-spacing: -0.15px;
-    margin-bottom: 40px;
 }
 @media only screen and (max-width: 1199px) {
     .about-page-wrapper .title {
@@ -5669,7 +5668,7 @@ iframe {
     object-position: center;
 }
 .team-member .content {
-    background-color: rgba(0, 0, 0, 0.1);
+    background-color: rgba(0, 0, 0, 0.2);
     height: 100%;
     left: 0;
     opacity: 0;

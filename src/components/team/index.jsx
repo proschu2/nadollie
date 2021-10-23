@@ -19,27 +19,53 @@ const Team = ({ data }) => {
                     <span className="designation">{data.designation}</span>
                 </div>
                 <div className="member-icons">
-                    <a
-                        href="https://twitter.com/"
-                        target="_blank"
-                        rel="noopener noreferrer"
-                    >
-                        <i className="social_twitter"></i>
-                    </a>
-                    <a
-                        href="https://facebook.com/"
-                        target="_blank"
-                        rel="noopener noreferrer"
-                    >
-                        <i className="social_facebook"></i>
-                    </a>
-                    <a
-                        href="https://www.linkedin.com/"
-                        target="_blank"
-                        rel="noopener noreferrer"
-                    >
-                        <i className="social_linkedin_square"></i>
-                    </a>
+                    {data.twitter && (
+                        <a
+                            href={"https://twitter.com/" + data.twitter}
+                            target="_blank"
+                            rel="noopener noreferrer"
+                        >
+                            <i className="social_twitter"></i>
+                        </a>
+                    )}
+                    {data.facebook && (
+                        <a
+                            href={"https://facebook.com/" + data.facebook}
+                            target="_blank"
+                            rel="noopener noreferrer"
+                        >
+                            <i className="social_facebook"></i>
+                        </a>
+                    )}
+                    {data.instagram && (
+                        <a
+                            href={"https://www.instagram.com/" + data.instagram}
+                            target="_blank"
+                            rel="noopener noreferrer"
+                        >
+                            <i className="social_instagram_square"></i>
+                        </a>
+                    )}
+                    {data.film && (
+                        <a
+                            href={data.film}
+                            target="_blank"
+                            rel="noopener noreferrer"
+                        >
+                            <i className="icon_film"></i>
+                        </a>
+                    )}
+                    {data.linkedin && (
+                        <a
+                            href={
+                                "https://www.linkedin.com/in/" + data.linkedin
+                            }
+                            target="_blank"
+                            rel="noopener noreferrer"
+                        >
+                            <i className="social_linkedin_square"></i>
+                        </a>
+                    )}
                 </div>
             </div>
         </div>
