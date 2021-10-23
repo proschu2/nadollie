@@ -1,7 +1,6 @@
 import React from "react";
 import Team from "../../../components/team";
 import AboutData from "../../../data/global/about.json";
-
 const TeamContainer = () => {
     return (
         <div className="team-area">
@@ -16,7 +15,7 @@ const TeamContainer = () => {
                         AboutData[2].team.map((single, key) => {
                             return (
                                 <div
-                                    className="col-sm-6 col-md-3"
+                                    className="col-sm-6 col-md-4"
                                     key={key}
                                     data-aos="fade-up"
                                 >

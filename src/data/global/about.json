@@ -24,27 +24,21 @@
                 "classOption": "team-member",
                 "image": "./img/team/nadina.jpg",
                 "name": "nadina dollie",
-                "designation": "CEO Founder"
+                "designation": "director and founder"
             },
             {
                 "id": 2,
                 "classOption": "team-member",
-                "image": "./img/team/02.jpg",
-                "name": "Alex Tuntuni",
-                "designation": "CEO Founder"
+                "image": "./img/team/leander.jpg",
+                "name": "leander goetsch",
+                "designation": "managing"
             },
             {
                 "id": 3,
                 "classOption": "team-member",
-                "image": "./img/team/03.jpg",
-                "name": "Blanche Fields",
-                "designation": "CEO Founder"
-            },
-            {
-                "id": 8,
-                "classOption": "team-member become-member",
-                "image": "./img/team/01.jpg",
-                "name": "Become <br>member in <br>Alexis"
+                "image": "./img/team/alvaro.jpg",
+                "name": "alvaro kreyden",
+                "designation": "director of photography"
             }
         ]
     },

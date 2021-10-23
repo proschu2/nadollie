@@ -1,5 +1,8 @@
+/* eslint-disable jsx-a11y/no-static-element-interactions */
+/* eslint-disable jsx-a11y/click-events-have-key-events */
 import PropTypes from "prop-types";
-import { Link } from "react-router-dom";
+/* import { Link } from "react-router-dom";
+import showModal from "../modal/index"; */
 
 const Team = ({ data }) => {
     return (
@@ -9,12 +12,10 @@ const Team = ({ data }) => {
             </div>
             <div className="content">
                 <div className="member-info">
-                    <h3 className="name">
-                        <Link
-                            to={process.env.PUBLIC_URL + "/"}
-                            dangerouslySetInnerHTML={{ __html: data.name }}
-                        ></Link>
-                    </h3>
+                    <h3
+                        className="name"
+                        dangerouslySetInnerHTML={{ __html: data.name }}
+                    />
                     <span className="designation">{data.designation}</span>
                 </div>
                 <div className="member-icons">

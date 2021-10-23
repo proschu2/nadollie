@@ -42,7 +42,6 @@ const App = () => {
                 <Switch>
                     <Route
                         path={`${process.env.PUBLIC_URL + "/home"}`}
-                        exact
                         component={HomePage}
                     />
                     <Route
