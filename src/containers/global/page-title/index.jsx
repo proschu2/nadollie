@@ -2,7 +2,7 @@ import PageTitle from "../../../components/page-title";
 
 const PageTitleContainer = () => {
     return (
-        <div className="page-title-area">
+        <div className="container">
             {/* <div className="container">
                 <div className="row">
                     <div className="col-lg-12" data-aos="fade-up">

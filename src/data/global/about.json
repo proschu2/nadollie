@@ -1,8 +1,8 @@
 [
     {
         "id": "about me",
-        "title": "Say Hello From Nadina !",
-        "excerpt": "Bla bla bla here"
+        "title": "nadina dollie",
+        "excerpt": "my name ist nadina dollie. I studied architecture at ETH zurich<br/>me and my team work on different visual projects</br>our newest short film <i>Verzasca in Red</i> is currently touring Europe"
     },
     {
         "id": "about service",
@@ -17,7 +17,7 @@
     },
     {
         "id": "team",
-        "title": "Meet Our Team",
+        "title": "team",
         "team": [
             {
                 "id": 1,

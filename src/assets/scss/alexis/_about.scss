@@ -7,10 +7,10 @@
     position: relative;
     .title {
         color: #fff;
-        font-family: $font-current-theme1;
+        font-family: $font-current-theme2;
         font-size: 36px;
         font-weight: $font-weight-bold;
-        letter-spacing: -0.15px;
+        letter-spacing: 2px;
         margin-bottom: 40px;
         @media #{$lg-device} {
             font-size: 30px;
@@ -30,6 +30,7 @@
         padding: 55px 0 0;
     }
     .title {
+        font-family: $font-current-theme2;
         margin-bottom: 40px;
         @media #{$lg-device} {
             margin-bottom: 20px;
