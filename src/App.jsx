@@ -47,6 +47,7 @@ const App = () => {
                     />
                     <Route
                         path={`${process.env.PUBLIC_URL + "/"}`}
+                        exact
                         component={AboutPage}
                     />
                     <Route
