@@ -5,8 +5,8 @@ import SEO from "../components/seo";
 import PortfolioDetailsContainer from "../containers/portfolio-details";
 import PortfolioData from "../data/portfolio.json";
 import Footer from "../layouts/footer";
-import Header from "../layouts/header/index";
-import Layout from "../layouts/index";
+import Header from "../layouts/header";
+import Layout from "../layouts";
 
 const PortfolioDetails = ({
     match: {

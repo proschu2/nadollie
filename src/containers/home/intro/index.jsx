@@ -3,7 +3,7 @@ import SwiperCore, { Pagination } from "swiper";
 import "swiper/components/navigation/navigation.scss";
 import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/swiper.scss";
-import Intro from "../../../components/intro/index";
+import Intro from "../../../components/intro";
 import HomeData from "../../../data/home.json";
 
 SwiperCore.use([Pagination]);

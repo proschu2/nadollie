@@ -4,8 +4,8 @@ import SEO from "../components/seo";
 import ContactContainer from "../containers/contact";
 import MapContainer from "../containers/global/map";
 import Footer from "../layouts/footer";
-import Header from "../layouts/header/index";
-import Layout from "../layouts/index";
+import Header from "../layouts/header";
+import Layout from "../layouts";
 
 const Contact = () => {
     return (

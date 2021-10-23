@@ -1,6 +1,6 @@
 [
     {
-        "id": "about me",
+        "id": "filmmedia",
         "title": "film and media work",
         "excerpt": "my name ist nadina dollie. I studied architecture at ETH Zurich<br/>me and my team work on different visual projects</br>our newest short film <i>Verzasca in Red</i> is currently touring Europe"
     },
@@ -20,7 +20,7 @@
         "title": "team",
         "team": [
             {
-                "id": 1,
+                "id": "nadina",
                 "classOption": "team-member",
                 "image": "./img/team/nadina.jpg",
                 "name": "nadina dollie",
@@ -29,7 +29,7 @@
                 "film": "https://www.srgssr.ch/de/news-medien/news/ich-hatte-keine-ahnung-wie-man-einen-film-macht-und-das-war-gut-so"
             },
             {
-                "id": 2,
+                "id": "leander",
                 "classOption": "team-member",
                 "image": "./img/team/leander.jpg",
                 "name": "leander goetsch",
@@ -37,7 +37,7 @@
                 "instagram": "leanderkronos"
             },
             {
-                "id": 3,
+                "id": "alvaro",
                 "classOption": "team-member",
                 "image": "./img/team/alvaro.jpg",
                 "name": "alvaro kreyden",
@@ -53,7 +53,7 @@
         "designation": "CEO at Drfurion"
     },
     {
-        "id": "about gallery",
+        "id": "gallery",
         "gallery": {
             "imageOne": "./img/photos/g-01.jpg",
             "imageTwo": "./img/photos/g-02.jpg",
@@ -61,7 +61,40 @@
         }
     },
     {
-        "id": "Awards",
+        "id": "movies",
+        "title": "projects",
+        "movies": [
+            {
+                "id": "verzasca",
+                "title": "verzasca in <span class='red-hover'>red</span>",
+                "header": "./img/movies/verzasca.jpeg",
+                "tours": [
+                    {
+                        "city": "cambridge [ uk ]",
+                        "name": "cambridge film festival",
+                        "url": "https://www.cambridgefilmfestival.org.uk/news/40th-cambridge-film-festival-dates-2021"
+                    },
+                    {
+                        "city": "muenchen [ de ]",
+                        "name": "new vawe short film festival",
+                        "url": "https://www.newwavefilmfestival.com/"
+                    },
+                    {
+                        "city": "roma [ it ]",
+                        "name": "roma short film festival",
+                        "url": "https://www.romashortfilmfest.com/"
+                    },
+                    {
+                        "city": "zug [ ch ]",
+                        "name": "Zuger Filmtage",
+                        "url": "https://zugerfilmtage.ch/"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": "awards",
         "title": "Awards Achieved",
         "yearOne": "2017",
         "yearTwo": "2016",
@@ -94,7 +127,7 @@
         ]
     },
     {
-        "id": "Brand",
+        "id": "brands",
         "title": "Our Clients",
         "excerpt": "Alexis has been honored to partner up with these clients.",
         "brand": [

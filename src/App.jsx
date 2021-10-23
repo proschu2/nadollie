@@ -16,7 +16,7 @@ import NavScrollTop from "./components/nav-scroll-top";
 import AboutPage from "./pages/about";
 import Blog from "./pages/blog";
 import Contact from "./pages/contact";
-import HomePage from "./pages/index";
+import HomePage from "./pages";
 import Portfolio from "./pages/portfolio";
 import VideoGallery from "./pages/video-gallery";
 import BlogAuthor from "./templates/blog-author";

@@ -4,8 +4,8 @@ import SEO from "../components/seo";
 import PageTitleContainerTwo from "../containers/global/page-title-two";
 import VideoGalleryContainer from "../containers/video-gallery";
 import Footer from "../layouts/footer";
-import Header from "../layouts/header/index";
-import Layout from "../layouts/index";
+import Header from "../layouts/header";
+import Layout from "../layouts";
 
 const VideoGallery = () => {
     return (

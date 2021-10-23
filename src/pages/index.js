@@ -5,8 +5,8 @@ import QuteContainer from "../containers/global/global-qute/index.jsx";
 import PortfolioContainer from "../containers/global/portfolio/index.jsx";
 import IntroContainer from "../containers/home/intro/index.jsx";
 import Footer from "../layouts/footer";
-import Header from "../layouts/header/index";
-import Layout from "../layouts/index";
+import Header from "../layouts/header";
+import Layout from "../layouts";
 
 const HomePage = () => {
     return (

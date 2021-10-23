@@ -1,5 +1,5 @@
 import React from "react";
-import Qute from "../../../components/qute/index";
+import Qute from "../../../components/qute";
 import HomeData from "../../../data/home.json";
 
 const QuteContainer = () => {

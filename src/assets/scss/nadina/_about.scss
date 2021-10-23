@@ -5,6 +5,7 @@
 */
 .about-page-wrapper {
     position: relative;
+
     .title {
         color: #fff;
         font-family: $font-current-theme2;
@@ -12,9 +13,11 @@
         font-weight: $font-weight-bold;
         letter-spacing: 2px;
         margin-bottom: 40px;
+
         @media #{$lg-device} {
             font-size: 30px;
         }
+
         @media #{$sm-device} {
             font-size: 24px;
         }
@@ -23,6 +26,7 @@
 
 .header-bild {
     padding-top: 12px;
+
     @media (min-width: 576px) {
         padding-top: min(55px, calc(calc(100vw - 540px) / 2));
     }
@@ -30,12 +34,15 @@
     @media (min-width: 768px) {
         padding-top: min(75px, calc(calc(100vw - 720px) / 2));
     }
+
     @media (min-width: 992px) {
         padding-top: min(95px, calc(calc(100vw - 960px) / 2));
     }
+
     @media (min-width: 1200px) {
         padding-top: min(95px, calc(calc(100vw - 1140px) / 2));
     }
+
     @media (min-width: 1400px) {
         padding-top: min(95px, calc(calc(100vw - 1320px) / 2));
     }
@@ -43,47 +50,61 @@
 
 .service-area {
     padding: 95px 0 0px;
+
     @media #{$md-device} {
         padding: 75px 0 0;
     }
+
     @media #{$sm-device} {
         padding: 55px 0 0;
     }
+
     .title {
         font-family: $font-current-theme2;
         margin-bottom: 40px;
+
         @media #{$lg-device} {
             margin-bottom: 20px;
         }
     }
+
     p {
         font-size: 18px;
         letter-spacing: -0.16px;
         line-height: 30px;
         margin-bottom: 0;
+        color: $gray-ccc;
+
         @media #{$sm-device} {
             font-size: 16px;
+
             br {
                 display: none;
             }
         }
+
         @media #{$xs-device} {
             font-size: 14px;
             line-height: 24px;
         }
     }
+
     ul {
         font-size: 18px;
         letter-spacing: -0.16px;
         line-height: 30px;
         margin-bottom: 0;
+
         @media #{$xs-device} {
             font-size: 16px;
         }
+
         li {
             margin-bottom: 0;
+
             a {
                 color: $body-color;
+
                 &:hover {
                     color: $black;
                 }
@@ -92,20 +113,125 @@
     }
 }
 
+.movies-area {
+    padding: 95px 0 0px;
+
+    @media #{$md-device} {
+        padding: 75px 0 0;
+    }
+
+    @media #{$sm-device} {
+        padding: 55px 0 0;
+    }
+
+    .title {
+        font-family: $font-current-theme2;
+        margin-bottom: 40px;
+        letter-spacing: 2px;
+
+        @media #{$lg-device} {
+            margin-bottom: 20px;
+        }
+
+        .red-hover:hover {
+            transition: 0.3s;
+            color: red;
+        }
+    }
+
+    p {
+        font-family: $font-current-theme2;
+        font-size: 18px;
+        letter-spacing: 0px;
+        color: $white;
+        line-height: 30px;
+        margin-bottom: 0;
+
+        @media #{$sm-device} {
+            font-size: 16px;
+
+            br {
+                display: none;
+            }
+        }
+
+        @media #{$xs-device} {
+            font-size: 14px;
+            line-height: 24px;
+        }
+    }
+    .row {
+        align-items: center;
+        margin-bottom: 40px;
+    }
+
+    a {
+        color: $gray-ccc;
+        font-family: $font-current-theme1;
+        font-size: 36px;
+        line-height: 30px;
+        letter-spacing: 0;
+
+        &:after {
+            background-color: $white;
+            bottom: 3px;
+            content: "";
+            height: 2px;
+            right: 0;
+            position: absolute;
+            width: 0;
+            @include transition(0.3s);
+        }
+
+        @media #{$lg-device} {
+            font-size: 24px;
+            line-height: 20px;
+            margin-bottom: 25px;
+        }
+
+        @media #{$xs-device} {
+            font-size: 20px;
+            line-height: 15px;
+        }
+    }
+
+    .item {
+        margin-bottom: 38px;
+
+        @media #{$xs-device} {
+            margin-bottom: 25px;
+        }
+        &:last-child {
+            margin-bottom: 0px;
+        }
+    }
+
+    .tours {
+        @media #{$xs-device} {
+            margin-top: 35px;
+        }
+    }
+}
+
 .award-area {
     background-color: $black-111;
     padding: 95px 0 40px;
+
     @media #{$md-device} {
         padding: 75px 0 25px;
     }
+
     @media #{$sm-device} {
         padding: 55px 0 10px;
     }
+
     .title {
         margin-bottom: 83px;
+
         @media #{$lg-device} {
             margin-bottom: 60px;
         }
+
         @media #{$xs-device} {
             margin-bottom: 40px;
         }
@@ -116,70 +242,89 @@
     .award-item {
         margin-bottom: 60px;
         position: relative;
+
         @media #{$lg-device} {
             margin-bottom: 75px;
         }
+
         @media #{$lg-device} {
             margin-bottom: 55px;
         }
+
         .award-year {
             color: $black-999;
             font-size: 18px;
             left: 0;
             letter-spacing: 0;
             position: absolute;
+
             @media #{$xxs-device} {
                 margin-bottom: 35px;
                 position: relative;
             }
         }
+
         .content {
             padding-left: 303px;
+
             @media #{$lg-device} {
                 padding-left: 180px;
             }
+
             @media #{$md-device} {
                 padding-left: 130px;
             }
+
             @media #{$xs-device} {
                 padding-left: 110px;
             }
+
             @media #{$xxs-device} {
                 padding-left: 0;
             }
+
             .item {
                 margin-bottom: 38px;
+
                 @media #{$xs-device} {
                     margin-bottom: 25px;
                 }
+
                 p {
                     color: $white;
                     font-size: 18px;
                     font-weight: $font-weight-bold;
                     letter-spacing: 0;
                     margin-bottom: 7px;
+
                     @media #{$xs-device} {
                         font-size: 16px;
                     }
                 }
+
                 h4 {
                     color: $gray-ccc;
                     font-family: $font-current-theme1;
                     font-size: 36px;
                     font-weight: $font-weight-bold;
                     letter-spacing: 0;
+
                     @media #{$lg-device} {
                         font-size: 24px;
                     }
+
                     @media #{$xs-device} {
                         font-size: 20px;
                     }
+
                     span {
                         color: $white;
                         position: relative;
+
                         @media #{$xs-device} {
                             line-height: 1.6;
                         }
+
                         &:after {
                             background-color: $white;
                             bottom: 3px;
@@ -192,6 +337,7 @@
                         }
                     }
                 }
+
                 &:hover {
                     h4 {
                         span {

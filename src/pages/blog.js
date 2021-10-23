@@ -4,8 +4,8 @@ import SEO from "../components/seo";
 import BlogContainer from "../containers/blog/blog-grid";
 import PageTitleContainerTwo from "../containers/global/page-title-two";
 import Footer from "../layouts/footer";
-import Header from "../layouts/header/index";
-import Layout from "../layouts/index";
+import Header from "../layouts/header";
+import Layout from "../layouts";
 
 const Blog = () => {
     return (

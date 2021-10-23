@@ -2,7 +2,7 @@ import PropTypes from "prop-types";
 import { Fragment, useEffect, useState } from "react";
 import HamburgerMenu from "../../components/hamburger-menu";
 import HeaderSearch from "../../components/header-search";
-import Logo from "../../components/logo/index";
+import Logo from "../../components/logo";
 import PopupSearch from "../../components/popup-search";
 
 const Header = ({ classOption }) => {

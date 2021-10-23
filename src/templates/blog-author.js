@@ -6,8 +6,8 @@ import BlogItemContainer from "../containers/blog/blog-item";
 import PageTitleContainerTwo from "../containers/global/page-title-two";
 import BlogData from "../data/blog.json";
 import Footer from "../layouts/footer";
-import Header from "../layouts/header/index";
-import Layout from "../layouts/index";
+import Header from "../layouts/header";
+import Layout from "../layouts";
 import { slugify } from "../utils";
 
 const BlogAuthor = ({

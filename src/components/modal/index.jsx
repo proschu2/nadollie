@@ -1,6 +1,6 @@
 import PropTypes from "prop-types";
 import React from "react";
-import Button from "../button/index";
+import Button from "../button";
 import Dialog from "@mui/material/Dialog";
 import DialogActions from "@mui/material/DialogActions";
 import DialogContent from "@mui/material/DialogContent";

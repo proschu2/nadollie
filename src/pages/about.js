@@ -7,10 +7,11 @@ import Blockquote from "../containers/about/blockquote";
 import AboutGallery from "../containers/about/gallery";
 import TeamContainer from "../containers/about/team";
 import BrandContainer from "../containers/global/brand";
+import Movies from "../containers/movies";
 import PageTitleContainer from "../containers/global/page-title";
 import Footer from "../layouts/footer";
-import Header from "../layouts/header/index";
-import Layout from "../layouts/index";
+import Header from "../layouts/header";
+import Layout from "../layouts";
 
 const AboutPage = () => {
     return (
@@ -23,10 +24,11 @@ const AboutPage = () => {
                         <PageTitleContainer />
                         <AboutService />
                         <TeamContainer />
-                        <Blockquote />
-                        <AboutGallery />
-                        <AboutAward />
-                        <BrandContainer />
+                        {/* <Blockquote /> */}
+                        {/* <AboutGallery /> */}
+                        <Movies />
+                        {/*  <AboutAward /> */}
+                        {/* <BrandContainer /> */}
                     </div>
                     <Footer />
                     <ScrollToTop />
