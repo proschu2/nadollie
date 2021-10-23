@@ -16,7 +16,7 @@ const AboutPage = () => {
     return (
         <React.Fragment>
             <Layout>
-                <SEO title="Nadina Dollie" />
+                <SEO title="nadina dollie" />
                 <div className="wrapper about-page-wrapper">
                     {/* <Header classOption="hb-border" /> */}
                     <div className="main-content">

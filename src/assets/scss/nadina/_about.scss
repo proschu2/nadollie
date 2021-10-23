@@ -21,6 +21,26 @@
     }
 }
 
+.header-bild {
+    padding-top: 12px;
+    @media (min-width: 576px) {
+        padding-top: min(55px, calc(calc(100vw - 540px) / 2));
+    }
+
+    @media (min-width: 768px) {
+        padding-top: min(75px, calc(calc(100vw - 720px) / 2));
+    }
+    @media (min-width: 992px) {
+        padding-top: min(95px, calc(calc(100vw - 960px) / 2));
+    }
+    @media (min-width: 1200px) {
+        padding-top: min(95px, calc(calc(100vw - 1140px) / 2));
+    }
+    @media (min-width: 1400px) {
+        padding-top: min(95px, calc(calc(100vw - 1320px) / 2));
+    }
+}
+
 .service-area {
     padding: 95px 0 0px;
     @media #{$md-device} {

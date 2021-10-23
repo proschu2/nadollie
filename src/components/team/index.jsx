@@ -7,7 +7,7 @@ import showModal from "../modal/index"; */
 const Team = ({ data }) => {
     return (
         <div className={data.classOption}>
-            <div className="thumb">
+            <div className="thumb rounded-3">
                 <img src={data.image} alt="Nadina-Team" />
             </div>
             <div className="content">
