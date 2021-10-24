@@ -4,19 +4,21 @@
 -----------------------------------------------------------------------
 */
 .team-area {
-    padding: 90px 0 60px;
+    padding-top: 80px;
     @media #{$md-device} {
-        padding: 70px 0 40px;
+        padding-top: 60px;
     }
     @media #{$sm-device} {
-        padding: 50px 0 20px;
+        padding-top: 40px;
     }
     .title {
         font-family: $font-current-theme2;
+        font-weight: $font-weight-light;
+        font-size: large;
         letter-spacing: 2px;
-        margin-bottom: 87px;
+        margin-bottom: 45px;
         @media #{$lg-device} {
-            margin-bottom: 50px;
+            margin-bottom: 25px;
         }
         @media #{$md-device} {
             margin-bottom: 30px;
@@ -65,8 +67,8 @@
                 bottom: -15px;
                 color: #fff;
                 font-family: $font-current-theme2;
-                font-size: 24px;
-                font-weight: $font-weight-bold;
+                font-size: 22px;
+                font-weight: $font-weight-light;
                 letter-spacing: 2px;
                 margin-bottom: 1px;
                 opacity: 0;

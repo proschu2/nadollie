@@ -7,10 +7,7 @@ const AboutService = () => {
         <div className="service-area">
             <div className="container">
                 <div className="row">
-                    <div
-                        className="col-lg-8 col-xl-8 mb-sm-50 mb-md-70"
-                        data-aos="fade-up"
-                    >
+                    <div className="col-lg-8 col-xl-8 " data-aos="fade-up">
                         <h2 className="title">{data.title}</h2>
                         <p
                             dangerouslySetInnerHTML={{

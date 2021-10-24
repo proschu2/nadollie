@@ -49,20 +49,21 @@
 }
 
 .service-area {
-    padding: 95px 0 0px;
+    padding-top: 95px;
 
     @media #{$md-device} {
-        padding: 75px 0 0;
+        padding-top: 75px;
     }
 
     @media #{$sm-device} {
-        padding: 55px 0 0;
+        padding-top: 55px;
     }
 
     .title {
         font-family: $font-current-theme2;
         margin-bottom: 40px;
-
+        font-weight: $font-weight-light;
+        font-size: large;
         @media #{$lg-device} {
             margin-bottom: 20px;
         }
@@ -77,10 +78,6 @@
 
         @media #{$sm-device} {
             font-size: 16px;
-
-            br {
-                display: none;
-            }
         }
 
         @media #{$xs-device} {
@@ -114,23 +111,23 @@
 }
 
 .movies-area {
-    padding: 95px 0 0px;
-
+    padding-top: 80px;
     @media #{$md-device} {
-        padding: 75px 0 0;
+        padding-top: 60px;
     }
-
     @media #{$sm-device} {
-        padding: 55px 0 0;
+        padding-top: 40px;
     }
 
     .title {
         font-family: $font-current-theme2;
-        margin-bottom: 40px;
+        font-weight: $font-weight-light;
+        font-size: large;
+        margin-bottom: 45px;
         letter-spacing: 2px;
 
         @media #{$lg-device} {
-            margin-bottom: 20px;
+            margin-bottom: 25px;
         }
 
         .red-hover:hover {
@@ -162,6 +159,8 @@
     }
     .row {
         align-items: center;
+    }
+    &:last-child {
         margin-bottom: 40px;
     }
 

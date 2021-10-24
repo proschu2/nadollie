@@ -1,6 +1,7 @@
 import AboutData from "../../../data/global/about.json";
 
 const Blockquote = () => {
+    const data = AboutData.filter((d) => d.id.toLowerCase() == "blockquote");
     return (
         <div className="blockquote-area">
             <div className="container">
@@ -9,16 +10,12 @@ const Blockquote = () => {
                         <blockquote className="blockquote-style">
                             <p
                                 dangerouslySetInnerHTML={{
-                                    __html: AboutData[3].excerpt,
+                                    __html: data.excerpt,
                                 }}
                             />
                             <div className="author-info">
-                                <span className="name">
-                                    {AboutData[3].name}
-                                </span>
-                                <span className="job">
-                                    {AboutData[3].designation}
-                                </span>
+                                <span className="name">{data.name}</span>
+                                <span className="job">{data.designation}</span>
                             </div>
                         </blockquote>
                     </div>
