@@ -1,8 +1,6 @@
 /* eslint-disable jsx-a11y/no-static-element-interactions */
 /* eslint-disable jsx-a11y/click-events-have-key-events */
 import PropTypes from "prop-types";
-/* import { Link } from "react-router-dom";
-import showModal from "../modal/index"; */
 
 const Team = ({ data }) => {
     return (

@@ -20,6 +20,7 @@ const TeamContainer = () => {
                                     className="col-sm-6 col-md-4"
                                     key={key}
                                     data-aos="fade-up"
+                                    data-aos-delay={String(100 * key)}
                                 >
                                     <Team data={single} />
                                 </div>

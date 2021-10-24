@@ -89,6 +89,15 @@
                         "name": "Zuger Filmtage",
                         "url": "https://zugerfilmtage.ch/"
                     }
+                ],
+                "scenes": [
+                    "bts1.jpeg",
+                    "bts2.jpeg",
+                    "bts3.jpeg",
+                    "bts4.jpeg",
+                    "bts6.jpeg",
+                    "bts5.jpeg",
+                    "bts7.jpeg"
                 ]
             }
         ]

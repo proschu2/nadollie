@@ -1,7 +1,18 @@
 import PropTypes from "prop-types";
+import { LightgalleryProvider } from "react-lightgallery";
+import PortfolioData from "../../data/portfolio.json";
+import useMasonry from "../../hooks/use-masonry";
+import SceneItem from "../portfolio/scene-item";
 
 const Movie = ({ data }) => {
-    console.log(data);
+    const { categories } = useMasonry(
+        PortfolioData,
+        ".portfolio-list",
+        ".masonry-grid",
+        ".messonry-button",
+        ".messonry-button button"
+    );
+    const folder = "img/movies/scenes/" + data.id + "/";
     return (
         <>
             <div className="row">
@@ -27,13 +38,6 @@ const Movie = ({ data }) => {
                             alt="Nadina-Team"
                         />
                     </div>
-                    {/*<h2 className="title">{data.title}</h2>
-                 <ul>
-                    {data.pagelinkText &&
-                        data.pagelinkText.map((single, key) => {
-                            return <li key={key}>{single}</li>;
-                        })}
-                </ul> */}
                 </div>
                 <div
                     className="col-md-6 col-lg-8 position-relative tours"
@@ -59,22 +63,46 @@ const Movie = ({ data }) => {
                             );
                         })}
                 </div>
-                {/* <div
-                    className="col-lg-6 position-relative"
+            </div>
+            <div className="row">
+                <div
+                    className="col-md-6 col-lg-4 position-relative"
                     data-aos="fade-up"
                     data-aos-delay="300"
                 >
-                    <div className="thumb rounded-3 w-75">
-                        <img src={data.header} alt="Nadina-Team" />
+                    DIRECTION
+                </div>
+                <div
+                    className="col-md-6 col-lg-8 position-relative tours"
+                    data-aos="fade-up"
+                    data-aos-delay="450"
+                >
+                    <div className="portfolio-area portfolio-default-area">
+                        <div className="container-fluid">
+                            <div className="row row-cols-1 row-cols-sm-2 row-cols-lg-3 row-cols-xl-4 portfolio-list mb-n30">
+                                <div className="col resizer"></div>
+                                <LightgalleryProvider>
+                                    {data.scenes &&
+                                        data.scenes.map((im, key) => (
+                                            <div
+                                                key={key}
+                                                className={`col masonry-grid mb-30`}
+                                                data-aos="fade-up"
+                                                data-aos-delay={String(
+                                                    600 + 100 * key
+                                                )}
+                                            >
+                                                <SceneItem
+                                                    key={key}
+                                                    src={folder + im}
+                                                />
+                                            </div>
+                                        ))}
+                                </LightgalleryProvider>
+                            </div>
+                        </div>
                     </div>
-                    <h2 className="title">{data.title}</h2>
-                    <ul>
-                        {data.pagelinkText &&
-                            data.pagelinkText.map((single, key) => {
-                                return <li key={key}>{single}</li>;
-                            })}
-                    </ul>
-                </div> */}
+                </div>
             </div>
         </>
     );
