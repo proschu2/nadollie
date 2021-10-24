@@ -90,6 +90,24 @@
                         "url": "https://zugerfilmtage.ch/"
                     }
                 ],
+                "info": [
+                    {
+                        "role": "writer and director",
+                        "name": "nadina dollie"
+                    },
+                    {
+                        "role": "director of cinematography",
+                        "name": "alvaro kreyden"
+                    },
+                    {
+                        "role": "producer",
+                        "name": "luca jehle"
+                    },
+                    {
+                        "role": "contribution",
+                        "name": "schweizer jugendfilmtage, srg ssr"
+                    }
+                ],
                 "scenes": [
                     "bts1.jpeg",
                     "bts2.jpeg",

@@ -52,7 +52,7 @@ const Movie = ({ data }) => {
                                     <div
                                         className="item"
                                         data-aos="fade-up"
-                                        data-aos-delay={String(300 + key * 100)}
+                                        /* data-aos-delay={String(300 + key * 100)} */
                                     >
                                         <p>{single.city}</p>
                                         <a href={single.url}>
@@ -70,7 +70,21 @@ const Movie = ({ data }) => {
                     data-aos="fade-up"
                     data-aos-delay="300"
                 >
-                    DIRECTION
+                    {data.info &&
+                        data.info.map((single, key) => (
+                            <>
+                                <div
+                                    className="item"
+                                    data-aos="fade-up"
+                                    /* data-aos-delay={String(300 + key * 100)} */
+                                >
+                                    <p>{single.role}</p>
+                                    <p className="person">
+                                        {single.name.toLowerCase()}
+                                    </p>
+                                </div>
+                            </>
+                        ))}
                 </div>
                 <div
                     className="col-md-6 col-lg-8 position-relative tours"
@@ -88,9 +102,9 @@ const Movie = ({ data }) => {
                                                 key={key}
                                                 className={`col masonry-grid mb-30`}
                                                 data-aos="fade-up"
-                                                data-aos-delay={String(
+                                                /* data-aos-delay={String(
                                                     600 + 100 * key
-                                                )}
+                                                )} */
                                             >
                                                 <SceneItem
                                                     key={key}
