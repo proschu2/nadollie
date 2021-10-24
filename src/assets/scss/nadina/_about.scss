@@ -110,6 +110,22 @@
     }
 }
 
+.bts-area {
+    &.bts-default-area {
+        padding-top: 24px;
+        /* padding: 60px 0 100px;
+        @media #{$lg-device} {
+            padding: 55px 0 100px;
+        }
+        @media #{$md-device} {
+            padding: 60px 0 75px;
+        }
+        @media #{$sm-device} {
+            padding: 50px 0 60px;
+        } */
+    }
+}
+
 .movies-area {
     padding-top: 80px;
     @media #{$md-device} {
@@ -161,6 +177,11 @@
     .row {
         align-items: center;
     }
+    .row.info {
+        align-items: flex-start;
+        text-align: end;
+    }
+
     &:last-child {
         margin-bottom: 45px;
     }

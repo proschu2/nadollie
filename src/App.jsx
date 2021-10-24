@@ -40,16 +40,16 @@ const App = () => {
         <Router>
             <NavScrollTop>
                 <Switch>
-                    <Route
+                    {/*  <Route
                         path={`${process.env.PUBLIC_URL + "/home"}`}
                         component={HomePage}
-                    />
+                    /> */}
                     <Route
                         path={`${process.env.PUBLIC_URL + "/"}`}
                         exact
                         component={AboutPage}
                     />
-                    <Route
+                    {/* <Route
                         path={`${process.env.PUBLIC_URL + "/portfolio"}`}
                         component={Portfolio}
                     />
@@ -90,7 +90,7 @@ const App = () => {
                     <Route
                         path={`${process.env.PUBLIC_URL + "/contact"}`}
                         component={Contact}
-                    />
+                    /> */}
                 </Switch>
             </NavScrollTop>
         </Router>

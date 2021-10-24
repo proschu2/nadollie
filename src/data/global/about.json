@@ -68,6 +68,7 @@
                 "id": "verzasca",
                 "title": "verzasca in <span class='red-hover'>red</span>",
                 "header": "./img/movies/verzasca.jpeg",
+                "year": "2020",
                 "tours": [
                     {
                         "city": "cambridge [ uk ]",
