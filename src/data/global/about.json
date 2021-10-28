@@ -110,13 +110,12 @@
                     }
                 ],
                 "scenes": [
-                    "bts1.jpeg",
-                    "bts2.jpeg",
-                    "bts3.jpeg",
-                    "bts4.jpeg",
-                    "bts6.jpeg",
-                    "bts5.jpeg",
-                    "bts7.jpeg"
+                    "bts_v_1.jpeg",
+                    "bts_v_2.jpeg",
+                    "bts_v_6.jpeg",
+                    "bts_v_4.jpeg",
+                    "bts_v_3.jpeg",
+                    "bts_v_7.jpeg"
                 ]
             }
         ]
