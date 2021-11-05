@@ -43,8 +43,10 @@
                 "name": "alvaro kreyden",
                 "designation": "director of photography",
                 "instagram": "taxidriverr"
-            }
-        ]
+            },
+{"id":"hannah", "classOption":"team-member","image": "./img/team/hanna.jpg",
+                "name": "hanna lea wyttenbach",
+                "designation": "editor"}      ]
     },
     {
         "id": "blockquote",
