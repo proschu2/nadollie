@@ -125,7 +125,10 @@
         } */
     }
 }
-
+.red-hover:hover {
+    transition: 0.3s;
+    color: red;
+}
 .movies-area {
     padding-top: 80px;
     @media #{$md-device} {
@@ -144,11 +147,6 @@
 
         @media #{$lg-device} {
             margin-bottom: 25px;
-        }
-
-        .red-hover:hover {
-            transition: 0.3s;
-            color: red;
         }
     }
 

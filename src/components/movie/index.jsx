@@ -16,8 +16,10 @@ const Movie = ({ data }) => {
         if (showInfo) {
             const masonryList = document.querySelector(".portfolio-list");
             imagesloaded(masonryList, () => {
-                const projectItems =
-                    masonryList.querySelectorAll(".masonry-grid");
+                // eslint-disable-next-line prettier/prettier
+                const projectItems = masonryList.querySelectorAll(
+                    ".masonry-grid"
+                );
                 let start = 1;
                 while (start < projectItems.length) {
                     projectItems[start].classList.add("grid-width-2");
@@ -87,7 +89,10 @@ const Movie = ({ data }) => {
                                             /* data-aos-delay={String(300 + key * 100)} */
                                         >
                                             <p>{single.city}</p>
-                                            <a href={single.url}>
+                                            <a
+                                                className="red-hover"
+                                                href={single.url}
+                                            >
                                                 {single.name.toLowerCase()}
                                             </a>
                                         </div>
