@@ -16,9 +16,8 @@ const Movie = ({ data }) => {
         if (showInfo) {
             const masonryList = document.querySelector(".portfolio-list");
             imagesloaded(masonryList, () => {
-                const projectItems = masonryList.querySelectorAll(
-                    ".masonry-grid"
-                );
+                const projectItems =
+                    masonryList.querySelectorAll(".masonry-grid");
                 let start = 1;
                 while (start < projectItems.length) {
                     projectItems[start].classList.add("grid-width-2");

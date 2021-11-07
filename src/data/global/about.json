@@ -44,9 +44,16 @@
                 "designation": "director of photography",
                 "instagram": "taxidriverr"
             },
-{"id":"hannah", "classOption":"team-member","image": "./img/team/hanna.jpg",
+            {
+                "id": "hannah",
+                "classOption": "team-member",
+                "image": "./img/team/hanna.jpg",
                 "name": "hanna lea wyttenbach",
-                "designation": "editor","instagram":"mangoguacamole"}      ]
+                "designation": "editor",
+                "webpage": "https://www.mangoguacamole.com/",
+                "instagram": "mangoguacamole"
+            }
+        ]
     },
     {
         "id": "blockquote",

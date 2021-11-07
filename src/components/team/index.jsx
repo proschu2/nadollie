@@ -53,6 +53,15 @@ const Team = ({ data }) => {
                             <i className="icon_film"></i>
                         </a>
                     )}
+                    {data.webpage && (
+                        <a
+                            href={data.webpage}
+                            target="_blank"
+                            rel="noopener noreferrer"
+                        >
+                            <i className="icon_globe-2"></i>
+                        </a>
+                    )}
                     {data.linkedin && (
                         <a
                             href={
