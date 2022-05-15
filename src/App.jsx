@@ -13,10 +13,9 @@ import "./assets/css/elegantIcons.css";
 import "./assets/css/icofont.css";
 import "./assets/scss/style.scss";
 import NavScrollTop from "./components/nav-scroll-top";
-import AboutPage from "./pages/about";
+import HomePage from "./pages/home";
 import Blog from "./pages/blog";
 import Contact from "./pages/contact";
-import HomePage from "./pages";
 import Portfolio from "./pages/portfolio";
 import VideoGallery from "./pages/video-gallery";
 import BlogAuthor from "./templates/blog-author";
@@ -47,7 +46,7 @@ const App = () => {
                     <Route
                         path={`${process.env.PUBLIC_URL + "/"}`}
                         exact
-                        component={AboutPage}
+                        component={HomePage}
                     />
                     {/* <Route
                         path={`${process.env.PUBLIC_URL + "/portfolio"}`}

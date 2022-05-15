@@ -2,23 +2,24 @@ import React from "react";
 import ScrollToTop from "../components/scroll-to-top";
 import SEO from "../components/seo";
 import AboutService from "../containers/about/about-service/index.jsx";
-import TeamContainer from "../containers/about/team";
+import ProjectsContainer from "../containers/home/projects";
 import Movies from "../containers/movies";
 import PageTitleContainer from "../containers/global/page-title";
 import Footer from "../layouts/footer";
+import Header from "../layouts/header";
 import Layout from "../layouts";
 
-const AboutPage = () => {
+const HomePage = () => {
     return (
         <React.Fragment>
             <Layout>
                 <SEO title="nadina dollie" />
                 <div className="wrapper about-page-wrapper">
-                    {/* <Header classOption="hb-border" /> */}
+                    <Header classOption="container" />
                     <div className="main-content">
-                        <PageTitleContainer />
-                        <AboutService />
-                        <TeamContainer />
+                        {/* <PageTitleContainer /> */}
+                        {/* <AboutService /> */}
+                        <ProjectsContainer />
                         {/* <Blockquote /> */}
                         {/* <AboutGallery /> */}
                         <Movies />
@@ -33,4 +34,4 @@ const AboutPage = () => {
     );
 };
 
-export default AboutPage;
+export default HomePage;
