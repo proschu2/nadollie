@@ -16,7 +16,7 @@ const HomePage = () => {
                     <Header classOption="container" />
                     <div className="main-content">
                         <ProjectsContainer />
-                        <Movies />
+                        {/* <Movies /> */}
                     </div>
                     <Footer />
                     <ScrollToTop />

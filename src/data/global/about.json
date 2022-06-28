@@ -15,6 +15,20 @@
         ]
     },
     {
+        "id": "projects",
+        "projects": [{
+                "id": "delirio",
+                "name": "GB Conte - Delirio",
+                "photo": "photoname.png"
+            },
+            {
+                "id": "verzasca",
+                "name": "Verzasca in Red",
+                "photo": "photoname.png"
+            }
+        ]
+    },
+    {
         "id": "team",
         "title": "team",
         "team": [{

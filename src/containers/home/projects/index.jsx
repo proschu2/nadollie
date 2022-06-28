@@ -1,9 +1,9 @@
 import React from "react";
 import ProjectHome from "../../../components/project-home";
-import AboutData from "../../../data/global/about.json";
-const TeamContainer = () => {
-    const data = AboutData.filter((d) => d.id.toLowerCase() == "team")[0];
-    console.log(data);
+import ProjectsData from "../../../data/projects.json";
+const ProjectsContainer = () => {
+    //const data = AboutData.filter((d) => d.id.toLowerCase() == "team")[0];
+    //console.log(data);
     return (
         <div className="team-area">
             <div className="container">
@@ -13,8 +13,8 @@ const TeamContainer = () => {
                     </div>
                 </div>
                 <div className="row"> */}
-                {data.team &&
-                    data.team.map((single, key) => {
+                {ProjectsData &&
+                    ProjectsData.map((single, key) => {
                         return (
                             <div
                                 className="col-lg-12"
@@ -32,4 +32,4 @@ const TeamContainer = () => {
     );
 };
 
-export default TeamContainer;
+export default ProjectsContainer;
