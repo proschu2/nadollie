@@ -14,6 +14,7 @@ import "./assets/css/icofont.css";
 import "./assets/scss/style.scss";
 import NavScrollTop from "./components/nav-scroll-top";
 import HomePage from "./pages/home";
+import ProjectPage from "./pages/project";
 import Blog from "./pages/blog";
 import Contact from "./pages/contact";
 import Portfolio from "./pages/portfolio";
@@ -47,6 +48,10 @@ const App = () => {
                         path={`${process.env.PUBLIC_URL + "/"}`}
                         exact
                         component={HomePage}
+                    />
+                    <Route
+                        path={`${process.env.PUBLIC_URL + "/:id"}`}
+                        component={ProjectPage}
                     />
                     {/* <Route
                         path={`${process.env.PUBLIC_URL + "/portfolio"}`}

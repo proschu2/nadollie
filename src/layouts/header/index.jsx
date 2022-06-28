@@ -4,6 +4,7 @@ import HamburgerMenu from "../../components/hamburger-menu";
 import HeaderSearch from "../../components/header-search";
 import Logo from "../../components/logo";
 import PopupSearch from "../../components/popup-search";
+import { Link } from "react-router-dom";
 
 const Header = ({ classOption }) => {
     const [ofcanvasShow, setOffcanvasShow] = useState(false);
@@ -51,7 +52,9 @@ const Header = ({ classOption }) => {
 
                         <div className="col-auto">
                             <div className="header-logo-area">
-                                nadina dollie
+                                <Link to={process.env.PUBLIC_URL + "/"}>
+                                    nadina dollie
+                                </Link>
                                 {/* <Logo
                                     image={`${process.env.PUBLIC_URL}/img/logo.png`}
                                 /> */}

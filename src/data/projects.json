@@ -2,12 +2,19 @@
         "id": "delirio",
         "classOption": "team-member",
         "name": "GB Conte - Delirio",
-        "image": "Delirio_Master_Cut_Grade - Simplified.00_01_04_13.Standbild053.jpg"
+        "photo": "Delirio_Master_Cut_Grade - Simplified.00_01_04_13.Standbild053.jpg",
+        "images": ["del1.jpg", "del2.jpg", "del3.jpg", "del4.jpg"]
     },
     {
         "id": "verzasca",
         "classOption": "team-member",
         "name": "Verzasca in Red",
-        "image": "22.jpg"
+        "photo": "22.jpg",
+        "images": [
+            "verzasca1.png",
+            "verzasca2.png",
+            "verzasca3.jpg",
+            "verzasca4.jpg"
+        ]
     }
 ]
