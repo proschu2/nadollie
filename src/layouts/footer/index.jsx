@@ -1,7 +1,7 @@
 import { Link } from "react-router-dom";
 import FooterLogo from "../../components/footer-logo";
 
-const Footer = () => {
+const Footer = () => {Return null;
     return (
         <footer className="footer-area reveal-footer border-top-style">
             <div className="container-fluid">
