@@ -4,7 +4,8 @@
         "name": "GB Conte - Delirio",
         "photo": "Delirio_Master_Cut_Grade - Simplified.00_01_04_13.Standbild053.jpg",
         "images": ["del1.jpg", "del2.jpg", "del3.jpg", "del4.jpg"],
-        "text": "video work I directed and produced in 2022.</br>for the swiss-italian artist GB Conte.</br>shot in the <i>la vela di calatrava</i> near rome.</br>in collaboration with farbfilm.ch"
+        "text": "video work I directed and produced in 2022.</br>for the swiss-italian artist GB Conte.</br>shot in the <i>la vela di calatrava</i> near rome.</br>in collaboration with farbfilm.ch",
+        "youtube": "https://www.youtube.com/watch?v=wUwVetMzb7k"
     },
     {
         "id": "verzasca",
@@ -17,6 +18,7 @@
             "verzasca2.png",
             "verzasca3.jpg",
             "verzasca4.jpg"
-        ]
+        ],
+        "playSuisse": "https://www.playsuisse.ch/detail/896919?locale=de"
     }
 ]
