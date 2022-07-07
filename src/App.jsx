@@ -15,16 +15,7 @@ import "./assets/scss/style.scss";
 import NavScrollTop from "./components/nav-scroll-top";
 import HomePage from "./pages/home";
 import ProjectPage from "./pages/project";
-import Blog from "./pages/blog";
-import Contact from "./pages/contact";
-import Portfolio from "./pages/portfolio";
-import VideoGallery from "./pages/video-gallery";
-import BlogAuthor from "./templates/blog-author";
-import BlogCategory from "./templates/blog-category";
-import BlogDate from "./templates/blog-date";
-import BlogDetails from "./templates/blog-details";
-import BlogTag from "./templates/blog-tag";
-import PortfolioDetails from "./templates/portfolio-details";
+import AboutPage from "./pages/about";
 
 const App = () => {
     useEffect(() => {
@@ -48,6 +39,11 @@ const App = () => {
                         path={`${process.env.PUBLIC_URL + "/"}`}
                         exact
                         component={HomePage}
+                    />
+                    <Route
+                        path={`${process.env.PUBLIC_URL + "/about"}`}
+                        exact
+                        component={AboutPage}
                     />
                     <Route
                         path={`${process.env.PUBLIC_URL + "/:id"}`}

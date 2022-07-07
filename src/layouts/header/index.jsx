@@ -63,7 +63,9 @@ const Header = ({ classOption }) => {
 
                         <div className="col-auto">
                             <div className="header-logo-area">
-                                about
+                                <Link to={process.env.PUBLIC_URL + "/about"}>
+                                    about
+                                </Link>
                                 {/* <Logo
                                     image={`${process.env.PUBLIC_URL}/img/logo.png`}
                                 /> */}
