@@ -7,8 +7,16 @@ const Footer = () => {
             <div className="container-fluid">
                 <div className="row">
                     <div className="col-sm-12">
-                        <div className="footer-content">
-                            <div className="widget-item">
+                        <div
+                            className="footer-content"
+                            data-aos="fade-up"
+                            data-aos-delay={String(10)}
+                        >
+                            <div
+                                className="widget-item"
+                                data-aos="fade-up"
+                                data-aos-delay={String(50)}
+                            >
                                 nadina dollie (1995) is a swiss based
                                 cinematographer
                             </div>
@@ -16,7 +24,11 @@ const Footer = () => {
                                 <div className="widget-footer-nav"></div>
                             </div> */}
                             <div className="widget-item">
-                                <div className="widget-copyright">
+                                <div
+                                    className="widget-copyright"
+                                    data-aos="fade-up"
+                                    data-aos-delay={String(100)}
+                                >
                                     <p>
                                         © {new Date().getFullYear()} all rights
                                         reserved
@@ -24,7 +36,11 @@ const Footer = () => {
                                 </div>
                             </div>
                             <div className="widget-item">
-                                <ul className="widget-social">
+                                <ul
+                                    className="widget-social"
+                                    data-aos="fade-up"
+                                    data-aos-delay={String(150)}
+                                >
                                     <li>
                                         <a
                                             href="tel:+41794226696"
