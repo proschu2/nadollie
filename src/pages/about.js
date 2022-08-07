@@ -1,12 +1,10 @@
 import React from "react";
 import ScrollToTop from "../components/scroll-to-top";
 import SEO from "../components/seo";
-import AboutService from "../containers/about/about-service/index.jsx";
-import TeamContainer from "../containers/about/team";
-import Movies from "../containers/movies";
-import PageTitleContainer from "../containers/global/page-title";
 import Footer from "../layouts/footer";
+import Header from "../layouts/header";
 import Layout from "../layouts";
+import AboutContainer from "../containers/about";
 
 const AboutPage = () => {
     return (
@@ -14,16 +12,9 @@ const AboutPage = () => {
             <Layout>
                 <SEO title="nadina dollie" />
                 <div className="wrapper about-page-wrapper">
-                    {/* <Header classOption="hb-border" /> */}
+                    <Header classOption="container" />
                     <div className="main-content">
-                        <PageTitleContainer />
-                        <AboutService />
-                        <TeamContainer />
-                        {/* <Blockquote /> */}
-                        {/* <AboutGallery /> */}
-                        <Movies />
-                        {/*  <AboutAward /> */}
-                        {/* <BrandContainer /> */}
+                        <AboutContainer />
                     </div>
                     <Footer />
                     <ScrollToTop />

@@ -3,8 +3,10 @@
 	Team CSS
 -----------------------------------------------------------------------
 */
+
 .team-area {
     padding-top: 80px;
+    padding-bottom: 140px;
     @media #{$md-device} {
         padding-top: 60px;
     }
@@ -27,7 +29,7 @@
 }
 
 .team-member {
-    margin-bottom: 30px;
+    // margin-bottom: 30px;
     &.pos {
         margin-bottom: 0;
     }
@@ -68,17 +70,18 @@
             padding: 0 15px;
         }
         .member-info {
-            bottom: 62px;
-            position: absolute;
+            top: 50%;
+            position: relative;
             .name {
-                bottom: -15px;
+                // bottom: -15px;
                 color: #fff;
                 font-family: $font-current-theme2;
-                font-size: 22px;
+                font-size: 25px;
                 letter-spacing: 2px;
                 margin-bottom: 1px;
                 opacity: 0;
                 position: relative;
+                text-align: center;
                 @include transition(0.5s);
                 a {
                     color: $white;

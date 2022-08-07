@@ -748,7 +748,7 @@
 
 .widget-item {
     .widget-title {
-        color: $black;
+        color: $body-color;
         font-size: 18px;
         letter-spacing: 0;
         margin-bottom: 47px;
@@ -865,7 +865,6 @@
                     font-size: 14px;
                     font-weight: $font-weight-normal;
                     letter-spacing: 0;
-
                     &:hover {
                         color: $theme-color;
                     }
@@ -918,23 +917,19 @@
                 letter-spacing: 0.323px;
                 margin-bottom: 37px;
             }
-
             .widget-search-box {
                 margin-bottom: 71px;
             }
-
             .widget-categories {
                 margin-bottom: 71px;
                 ul {
                     margin-bottom: 0;
                 }
             }
-
             .widget-blog-post {
                 margin-bottom: 77px;
                 padding-top: 7px;
             }
-
             .widget-tags {
                 &.tags-style2 {
                     ul {

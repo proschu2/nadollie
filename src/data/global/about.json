@@ -1,5 +1,4 @@
-[
-    {
+[{
         "id": "filmmedia",
         "title": "film and media work",
         "excerpt": "My name is Nadina Dollie. I study architecture at the ETH Zurich.<br/>Me and my team work on selected visual projects.<br/>Our newest short film <i>Verzasca in Red</i> is currently touring Europe."
@@ -16,13 +15,26 @@
         ]
     },
     {
+        "id": "projects",
+        "projects": [{
+                "id": "delirio",
+                "name": "GB Conte - Delirio",
+                "photo": "photoname.png"
+            },
+            {
+                "id": "verzasca",
+                "name": "Verzasca in Red",
+                "photo": "photoname.png"
+            }
+        ]
+    },
+    {
         "id": "team",
         "title": "team",
-        "team": [
-            {
+        "team": [{
                 "id": "nadina",
                 "classOption": "team-member",
-                "image": "./img/team/nadina.jpg",
+                "image": "./img/about/header.jpeg",
                 "name": "nadina dollie",
                 "designation": "founder and director",
                 "instagram": "pashmina__",
@@ -31,7 +43,7 @@
             {
                 "id": "leander",
                 "classOption": "team-member",
-                "image": "./img/team/leander.jpg",
+                "image": "./img/about/header.jpeg",
                 "name": "leander goetsch",
                 "designation": "managememt",
                 "instagram": "leanderkronos"
@@ -39,7 +51,7 @@
             {
                 "id": "alvaro",
                 "classOption": "team-member",
-                "image": "./img/team/alvaro.jpg",
+                "image": "https://media.giphy.com/media/3orif9P6JSBEdj5yLK/giphy.gif",
                 "name": "alvaro kreyden",
                 "designation": "director of photography",
                 "instagram": "taxidriverr"
@@ -72,70 +84,65 @@
     {
         "id": "movies",
         "title": "projects",
-        "movies": [
-            {
-                "id": "verzasca",
-                "title": "verzasca in <span class='red-hover'>red</span>",
-                "header": "./img/movies/verzasca.jpeg",
-                "year": "2020",
-                "tours": [
-                    {
-                        "city": "cambridge [ uk ]",
-                        "name": "cambridge film festival",
-                        "url": "https://www.cambridgefilmfestival.org.uk/news/40th-cambridge-film-festival-dates-2021"
-                    },
-                    {
-                        "city": "muenchen [ de ]",
-                        "name": "new wave short film festival",
-                        "url": "https://www.newwavefilmfestival.com/"
-                    },
-                    {
-                        "city": "roma [ it ]",
-                        "name": "roma short film festival",
-                        "url": "https://www.romashortfilmfest.com/"
-                    },
-                    {
-                        "city": "zug [ ch ]",
-                        "name": "Zuger Filmtage",
-                        "url": "https://zugerfilmtage.ch/"
-                    }
-                ],
-                "info": [
-                    {
-                        "role": "writer and director",
-                        "name": "nadina dollie"
-                    },
-                    {
-                        "role": "director of cinematography",
-                        "name": "alvaro kreyden"
-                    },
-                    {
-                        "role": "producer",
-                        "name": "luca jehle"
-                    },
-                    {
-                        "role": "contribution",
-                        "name": "schweizer jugendfilmtage, srg ssr"
-                    }
-                ],
-                "scenes": [
-                    "bts_v_1.jpeg",
-                    "bts_v_2.jpeg",
-                    "bts_v_6.jpeg",
-                    "bts_v_4.jpeg",
-                    "bts_v_3.jpeg",
-                    "bts_v_7.jpeg"
-                ]
-            }
-        ]
+        "movies": [{
+            "id": "verzasca",
+            "title": "verzasca in <span class='red-hover'>red</span>",
+            "header": "./img/movies/verzasca.jpeg",
+            "year": "2020",
+            "tours": [{
+                    "city": "cambridge [ uk ]",
+                    "name": "cambridge film festival",
+                    "url": "https://www.cambridgefilmfestival.org.uk/news/40th-cambridge-film-festival-dates-2021"
+                },
+                {
+                    "city": "muenchen [ de ]",
+                    "name": "new wave short film festival",
+                    "url": "https://www.newwavefilmfestival.com/"
+                },
+                {
+                    "city": "roma [ it ]",
+                    "name": "roma short film festival",
+                    "url": "https://www.romashortfilmfest.com/"
+                },
+                {
+                    "city": "zug [ ch ]",
+                    "name": "Zuger Filmtage",
+                    "url": "https://zugerfilmtage.ch/"
+                }
+            ],
+            "info": [{
+                    "role": "writer and director",
+                    "name": "nadina dollie"
+                },
+                {
+                    "role": "director of cinematography",
+                    "name": "alvaro kreyden"
+                },
+                {
+                    "role": "producer",
+                    "name": "luca jehle"
+                },
+                {
+                    "role": "contribution",
+                    "name": "schweizer jugendfilmtage, srg ssr"
+                }
+            ],
+            "scenes": [
+                "bts_v_1.jpeg",
+                "bts_v_2.jpeg",
+                "bts_v_6.jpeg",
+                "bts_v_4.jpeg",
+                "bts_v_3.jpeg",
+                "bts_v_7.jpeg"
+            ]
+        }]
     },
     {
         "id": "awards",
         "title": "Awards Achieved",
         "yearOne": "2017",
         "yearTwo": "2016",
-        "awardItem": [
-            {
+        "awardItem": [{
                 "id": 1,
                 "cate": "500px",
                 "title": "Photo Of The Years for <span>Emila</span>"
@@ -166,8 +173,7 @@
         "id": "brands",
         "title": "Our Clients",
         "excerpt": "Alexis has been honored to partner up with these clients.",
-        "brand": [
-            {
+        "brand": [{
                 "id": 1,
                 "image": "./img/brand-logo/01.png"
             },

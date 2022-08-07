@@ -4,6 +4,7 @@ import HamburgerMenu from "../../components/hamburger-menu";
 import HeaderSearch from "../../components/header-search";
 import Logo from "../../components/logo";
 import PopupSearch from "../../components/popup-search";
+import { Link } from "react-router-dom";
 
 const Header = ({ classOption }) => {
     const [ofcanvasShow, setOffcanvasShow] = useState(false);
@@ -31,13 +32,11 @@ const Header = ({ classOption }) => {
     return (
         <Fragment>
             <header
-                className={`header-area header-default sticky-header ${classOption} ${
-                    scroll > headerTop ? "sticky" : ""
-                }`}
+                className={`header-area header-default sticky-header ${classOption}`}
             >
                 <div className="container-fluid">
                     <div className="row align-items-center justify-content-between">
-                        <div className="col-auto">
+                        {/* <div className="col-auto">
                             <div className="header-action-area">
                                 <button
                                     className="btn-menu"
@@ -49,11 +48,13 @@ const Header = ({ classOption }) => {
                                 </button>
                                 <span className="menu-text">Menu</span>
                             </div>
-                        </div>
+                        </div> */}
 
                         <div className="col-auto">
                             <div className="header-logo-area">
-                                NADINA
+                                <Link to={process.env.PUBLIC_URL + "/"}>
+                                    nadina dollie
+                                </Link>
                                 {/* <Logo
                                     image={`${process.env.PUBLIC_URL}/img/logo.png`}
                                 /> */}
@@ -61,7 +62,14 @@ const Header = ({ classOption }) => {
                         </div>
 
                         <div className="col-auto">
-                            <HeaderSearch onClick={onSearchHandler} />
+                            <div className="header-logo-area">
+                                <Link to={process.env.PUBLIC_URL + "/about"}>
+                                    about
+                                </Link>
+                                {/* <Logo
+                                    image={`${process.env.PUBLIC_URL}/img/logo.png`}
+                                /> */}
+                            </div>
                         </div>
                     </div>
                 </div>
