@@ -11,6 +11,14 @@ const About = ({ data }) => {
                 data-aos-delay={String(100)}
             >
                 <img src={data.photo} alt="Nadina" />
+                <div
+                    className="col-xs-6 col-md-6 about-text pt-2"
+                    dangerouslySetInnerHTML={{
+                        __html: data.photo_c,
+                    }}
+                    data-aos="fade-up"
+                    data-aos-delay={String(150)}
+                />
             </div>
             <div
                 className="col-xs-4 col-md-5 about-text"
