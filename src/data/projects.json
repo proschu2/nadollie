@@ -1,5 +1,6 @@
 [{
         "id": "delirio",
+        "reel": true,
         "classOption": "team-member",
         "name": "GB Conte - Delirio",
         "photo": "delirio_home.jpg",
@@ -15,6 +16,7 @@
     },
     {
         "id": "verzasca",
+        "reel": true,
         "classOption": "team-member",
         "name": "Verzasca in Red",
         "photo": "verzasca_home.jpg",
@@ -27,5 +29,22 @@
             "verzasca5.jpg"
         ],
         "playSuisse": "https://www.playsuisse.ch/detail/896919?locale=de"
+    },
+    {
+        "id": "wip",
+        "classOption": "team-member",
+        "name": "Work In Process",
+        "photo": "wip_home.gif",
+        "text": "new work in process",
+        "images": [
+            "wip1.jpeg",
+            "wip2.jpeg",
+            "wip3.jpeg",
+            "wip4.jpeg",
+            "wip5.jpeg",
+            "wip6.jpeg",
+            "wip7.jpeg",
+            "wip8.jpeg"
+        ]
     }
 ]

@@ -60,7 +60,7 @@ const ClipContainer = ({ id }) => {
         <>
             <div className="team-area">
                 <div className="container">
-                    {data && (
+                    {data && data.reel && (
                         <ReactPlayer
                             url={
                                 "img/projects/" +
@@ -81,12 +81,10 @@ const ClipContainer = ({ id }) => {
                     {data &&
                         data[0].images &&
                         data[0].images.map((single, key) => {
-                            console.log(single);
                             const v = { photo: single, id };
-                            console.log(v);
                             return (
                                 <div
-                                    className="col-lg-12"
+                                    className="col-lg-12 text-center"
                                     key={key}
                                     data-aos="fade-up"
                                     data-aos-delay={String(100 * key)}
