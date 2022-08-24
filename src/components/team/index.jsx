@@ -5,9 +5,11 @@ import PropTypes from "prop-types";
 const Team = ({ data }) => {
     return (
         <div className={data.classOption} id={data.id}>
-            <div className="thumb rounded-3">
-                <img src={data.image} alt="Nadina-Team" />
-            </div>
+            {data.image && (
+                <div className="thumb rounded-3">
+                    <img src={data.image} alt="Nadina-Team" />
+                </div>
+            )}
             <div className="content">
                 <div className="member-info">
                     <h3
