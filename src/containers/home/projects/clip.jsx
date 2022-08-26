@@ -60,7 +60,7 @@ const ClipContainer = ({ id }) => {
         <>
             <div className="team-area">
                 <div className="container">
-                    {data && data.reel && (
+                    {data && data[0].reel && (
                         <ReactPlayer
                             url={
                                 "img/projects/" +
