@@ -1,4 +1,20 @@
-[{
+[ {
+        "id": "wip",
+        "classOption": "team-member",
+        "name": "Work In Process",
+        "photo": "wip_home.jpeg",
+        "text": "new work in process",
+        "images": [
+            "wip1.jpeg",
+            "wip2.jpeg",
+            "wip3.jpeg",
+            "wip4.jpeg",
+            "wip5.jpeg",
+            "wip6.jpeg",
+            "wip7.jpeg",
+            "wip8.jpeg"
+        ]
+    },{
         "id": "delirio",
         "reel": true,
         "classOption": "team-member",
@@ -30,20 +46,4 @@
         ],
         "playSuisse": "https://www.playsuisse.ch/detail/896919?locale=de"
     }
-]
-"id": "verzasca",
-"reel": true,
-"classOption": "team-member",
-"name": "Verzasca in Red",
-"photo": "verzasca_home.jpg",
-"text": "first short film I did in 2020.</br>opening film at the <i>swiss jugendfilmtage</i> 2021.</br>shown in cambridge, rome, paris, munich, zug and zurich.</br>award winning at the <i>new york indie cinema awards</i>, for best cinematography (alvaro kreyden) and best edit (hanna lea wyttenbach).",
-"images": [
-    "verzasca1.png",
-    "verzasca2.jpg",
-    "verzasca3.jpg",
-    "verzasca4.jpeg",
-    "verzasca5.jpg"
-],
-"playSuisse": "https://www.playsuisse.ch/detail/896919?locale=de"
-}
 ]
