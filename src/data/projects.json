@@ -1,4 +1,20 @@
-[{
+[
+    {
+        "id": "atlantis",
+        "classOption": "team-member",
+        "name": "Lee Bonaventura - Atlantis",
+        "photo": "atlantis_home.webp",
+        "text": "Atlantis - for Lee Bonaventura.</br>dop aaron markus graf.</br>in collaboration with nektar tv.",
+        "images": [
+            "atlantis1.webp",
+            "atlantis2.webp",
+            "atlantis3.webp",
+            "atlantis4.webp",
+            "atlantis5.webp"
+        ],
+        "youtube": "https://www.youtube.com/watch?v=FSX1U6g2Ckw"
+    },
+    {
         "id": "wip",
         "classOption": "team-member",
         "name": "Work In Process",
