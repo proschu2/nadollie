@@ -4,7 +4,7 @@
         "classOption": "team-member",
         "name": "Lee Bonaventura - Atlantis",
         "photo": "atlantis_home.webp",
-        "text": "Atlantis - for Lee Bonaventura.</br>dop aaron markus graf.</br>in collaboration with nektar tv.",
+        "text": "Atlantis - for Lee Bonaventura.</br>dop aaron markus graf.</br>in collaboration with <a href='https://nektar.tv'>nektar.tv</a>.",
         "images": [
             "atlantis1.webp",
             "atlantis2.webp",
@@ -42,7 +42,7 @@
             "delirio4.webp",
             "delirio5.webp"
         ],
-        "text": "video work I directed and produced in 2022.</br>for the swiss-italian artist GB Conte.</br>shot in the <i>la vela di calatrava</i> near rome.</br>in collaboration with farbfilm.ch",
+        "text": "video work I directed and produced in 2022.</br>for the swiss-italian artist GB Conte.</br>shot in the <i>la vela di calatrava</i> near rome.</br>in collaboration with <a href='https://farbfilm.ch'>farbfilm.ch</a>.",
         "youtube": "https://www.youtube.com/watch?v=wUwVetMzb7k"
     },
     {
